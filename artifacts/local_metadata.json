@@ -1,0 +1,72 @@
+{
+	"compiler": {
+		"version": "0.8.6+commit.11564f7e"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [],
+				"name": "getter",
+				"outputs": [
+					{
+						"internalType": "uint256",
+						"name": "",
+						"type": "uint256"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "uint256",
+						"name": "newage",
+						"type": "uint256"
+					}
+				],
+				"name": "setter",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"getterSetter.sol": "Local"
+		},
+		"evmVersion": "berlin",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"getterSetter.sol": {
+			"keccak256": "0x679de75ad584da73d80919ab7da2453d8673d6efeffb649e14f65edc61220879",
+			"license": "GPL-3.0",
+			"urls": [
+				"bzz-raw://ed6c1ea42f87a326ef6dd081ef5b250f2622fb468374296b7dbc86ecc6e14727",
+				"dweb:/ipfs/QmbHxQvNk5etqBSSESDUuDz5aZ8QtVauoxdUi9vbVgre4h"
+			]
+		}
+	},
+	"version": 1
+}
